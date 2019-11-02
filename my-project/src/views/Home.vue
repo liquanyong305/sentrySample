@@ -15,7 +15,6 @@ export default {
     HelloWorld
   },
   created() {
-    console.log('Home error!');
     throw new Error('error occored');
   }
 
